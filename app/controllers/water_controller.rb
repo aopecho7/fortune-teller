@@ -1,6 +1,6 @@
-class WatersController < ApplicationController
+class WaterController < ApplicationController
   def crab
-    horoscope = "Confirmation of professional success could come your way, Cancer, and you're probably feeling excited and motivated to keep pushing. But you may find that increased responsibilities interfere with your social life. You wonder if friends have forgotten you. They haven't, but it will make you feel better if you squeeze in a few hours for your friends each week. Remember what they say about all work and no play."
+    @horoscope = "Confirmation of professional success could come your way, Cancer, and you're probably feeling excited and motivated to keep pushing. But you may find that increased responsibilities interfere with your social life. You wonder if friends have forgotten you. They haven't, but it will make you feel better if you squeeze in a few hours for your friends each week. Remember what they say about all work and no play."
 
     @array_of_numbers = Array.new
 
